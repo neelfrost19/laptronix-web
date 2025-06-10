@@ -1,0 +1,26 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="150" cy="150" r="140" fill="#fff" stroke="#e0e0e0" stroke-width="2"/>
+    <circle cx="150" cy="150" r="120" fill="#fafafa" stroke="#f0f0f0"/>
+    <g transform="translate(150 150)">
+        <g transform="translate(-55 -45)">
+            <path fill="#333" d="M0 0h12v80H0z"/>
+            <path fill="#333" d="M0 68h45v12H0z"/>
+            <path fill="#666" d="M3 15h6v20H3z"/>
+            <circle cx="6" cy="40" r="3" fill="#999"/>
+        </g>
+        <g transform="translate(15 -45)">
+            <path fill="#333" d="M0 0h50v12H0z"/>
+            <path fill="#333" d="M19 0h12v80H19z"/>
+            <path fill="#666" d="M22 25h6v16h-6z"/>
+            <circle cx="25" cy="50" r="3" fill="#999"/>
+        </g>
+        <path d="M-25 30q25-10 55 0" stroke="#ccc" stroke-width="2" fill="none" opacity=".6"/>
+        <circle cx="-25" cy="30" r="4" fill="none" stroke="#ccc"/>
+        <circle cx="30" cy="30" r="4" fill="none" stroke="#ccc"/>
+        <path fill="#f0f0f0" stroke="#e0e0e0" d="m0-65-8 13H8zM0 70l-8-13H8z"/>
+    </g>
+    <text x="150" y="240" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#555" text-anchor="middle" letter-spacing="2">
+        LAPTRONIX TECH
+    </text>
+    <circle cx="150" cy="150" r="135" fill="none" stroke="#f0f0f0"/>
+</svg>

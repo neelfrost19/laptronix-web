@@ -1,0 +1,105 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 32px;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+    margin-bottom: 24px;
+    font-size: 1.5rem;
+    color: #222;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.form input:focus,
+.form textarea:focus {
+    border-color: #0070f3;
+    outline: none;
+}
+
+.submitButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #0070f3;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #005fd1;
+}
+
+.openButton {
+    border: none;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    display: inline-block;
+    padding: 12px 30px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.openButton:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+.closeButton {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #888;
+}
+
+.closeButton:hover {
+    color: #000;
+}
