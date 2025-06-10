@@ -1,6 +1,5 @@
 import styles from "@/styles/Home.module.css";
-import Image from 'next/image'
-import { ChevronDown, Menu, X, ArrowRight, Users, Code, Globe, Award, Clock, Target } from 'lucide-react';
+import { Users, Code, Cpu } from 'lucide-react';
 
 export default function Hero(){
     return (
@@ -21,7 +20,7 @@ export default function Hero(){
                         <span>Custom Software & Web App Development</span>
                     </li>
                     <li>
-                        <Globe size={20} className="text-purple-400" />
+                        <Cpu size={20} className="text-purple-400" />
                         <span>Hardware Engineering & Installation</span>
                     </li>
                 </ul>
