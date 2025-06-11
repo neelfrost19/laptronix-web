@@ -15,7 +15,7 @@ import {IPageData} from "@/types/types";
 
 export async function getServerSideProps() {
   const pageData = {
-    title: "Laptronix Tech | Custom Software Development & Remote Teams",
+    title: "Laptronix Tech | Custom Software Development & Hardware engineering",
     description: "IT consulting, software engineering and hardware engineering. Laptronix covers the entire software development process, from product vision discussion to application design and software enhancement.",
     services: [
       {
