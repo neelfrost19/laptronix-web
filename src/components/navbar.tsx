@@ -1,10 +1,12 @@
 import styles from "@/styles/Home.module.css";
+import Image from "next/image";
 
 export default function Navbar(){
     return (
         <header className={styles.header}>
             <nav className={styles.nav}>
                 <div className={styles.logo}>
+                    <Image src="/images/logo.svg" alt="logo" height="40" width="40"></Image>
                     <h2>Laptronix Tech</h2>
                 </div>
                 <ul className={styles['nav-links']}>

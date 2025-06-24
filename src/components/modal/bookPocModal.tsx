@@ -12,7 +12,6 @@ const BookPocModal = () => {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        console.log({ name, email, company, message });
         setIsOpen(false);
     };
 

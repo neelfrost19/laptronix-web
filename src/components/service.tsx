@@ -2,7 +2,6 @@ import styles from "@/styles/Home.module.css";
 import {IPageProps} from "@/types/types";
 
 export default function Service(props: IPageProps){
-    console.log(props);
     const {props: pageData}= props;
     return (
         <section id="services" className={styles.services}>

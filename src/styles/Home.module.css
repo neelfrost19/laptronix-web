@@ -26,10 +26,23 @@
   padding: 0 20px;
 }
 
-.logo h2 {
-  color: #2563eb;
-  font-size: 1.8rem;
-  font-weight: 700;
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  image {
+    padding-top: 5px;
+  }
+
+  h2 {
+    color: #2563eb;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 5px;
+  }
 }
 
 .nav-links {

@@ -17,7 +17,7 @@ export default function Contact(props: IPageProps){
                 {pageData.contacts.map((contact, index) => (
                     <div key={index} className={styles["contact-card"]}>
                         <h4>{contact.country}</h4>
-                        {/*<p>{contact.phone}</p>*/}
+                        <p>{contact.phone}</p>
                         <p>{contact.email}</p>
                     </div>
                 ))}

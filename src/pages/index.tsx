@@ -135,9 +135,9 @@ export async function getServerSideProps() {
       { number: "5 Hours", label: "Response Time" }
     ],
     contacts: [
-      { country: "Delhi", phone: "+91 9078013055", email: "sales@laptronixtech.co.in" },
-      { country: "Mumbai", phone: "+91 9078013055", email: "sales@laptronixtech.co.in" },
-      { country: "Odisha", phone: "+91 9078013055", email: "sales@laptronixtech.co.in" },
+      { country: "Delhi", phone: "+91 7377370998", email: "sales@laptronixtech.co.in" },
+      { country: "Mumbai", phone: "+91 7377370998", email: "sales@laptronixtech.co.in" },
+      { country: "Odisha", phone: "+91 7377370998", email: "sales@laptronixtech.co.in" },
     ]
   };
 
